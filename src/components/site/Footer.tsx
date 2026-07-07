@@ -118,10 +118,21 @@ function FooterCol({ title, items }: { title: string; items: string[] }) {
       <ul className="mt-5 space-y-3 text-sm text-white/70">
         {items.map((i) => (
           <li key={i}>
-            <Link to={getPath(i)} className="hover:text-[var(--gold)] transition-colors block py-1">{i}</Link>
+            {title === "Industries" ? (
+              <span className="block py-1">{i}</span>
+            ) : (
+              <Link to={getPath(i)} className="hover:text-[var(--gold)] transition-colors block py-1">{i}</Link>
+            )}
           </li>
         ))}
       </ul>
+      {title === "Industries" && (
+        <div className="mt-5">
+          <Link to="/industries" className="text-[var(--gold)] hover:underline font-semibold text-sm">
+            View All Industries &rarr;
+          </Link>
+        </div>
+      )}
     </div>
   );
 }
