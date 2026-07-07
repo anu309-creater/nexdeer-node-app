@@ -283,7 +283,7 @@ export function Trusted() {
           
           <div className="mt-10">
             <a href="https://wa.me/447537171506" target="_blank" rel="noopener noreferrer" className="btn-gold">
-              Discuss Your Project on WhatsApp
+              Let's Grow Together
             </a>
           </div>
         </div>
@@ -380,7 +380,7 @@ export function Problem() {
 
           <div className="mt-8 fade-up" style={{ animationDelay: '1300ms' }}>
             <a href="https://wa.me/447537171506" target="_blank" rel="noopener noreferrer" className="btn-gold">
-              Get Your Free Consultation
+              Get Free Consultation
             </a>
           </div>
         </div>
@@ -506,9 +506,9 @@ export function GrowthSystem({ limit }: { limit?: number }) {
 
         {limit && (
           <div className="mt-14 text-center">
-            <Link to="/services" className="btn-ghost text-[var(--ink-deep)] group">
-              <span className="relative z-10 flex items-center gap-2 transition-transform duration-300 group-hover:gap-4">View All 10 Services <ArrowRight size={16} /></span>
-            </Link>
+            <a href="https://wa.me/447537171506" target="_blank" rel="noopener noreferrer" className="btn-gold">
+              Let's Solve Your Challenges
+            </a>
           </div>
         )}
       </div>
