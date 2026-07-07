@@ -1505,9 +1505,9 @@ export function CeoMessage() {
       <div className="container-x">
         <div className="fade-up" style={{ animationDelay: '100ms' }}>
           
-          <div className="rounded-[2.5rem] bg-gray-100/30 border border-gray-200/50 p-8 md:p-16 lg:p-20 text-[var(--ink-deep)] relative overflow-hidden shadow-2xl transition-all duration-700 hover:bg-[#0a1128] hover:text-white group/ceo">
-            <div className="absolute right-12 top-16 text-[20rem] leading-none font-serif text-[var(--gold)]/10 group-hover/ceo:text-[var(--gold)]/20 transition-colors duration-700 select-none pointer-events-none hidden md:block">"</div>
-            <div className="absolute -left-32 -bottom-32 w-96 h-96 bg-[var(--gold)]/10 rounded-full blur-3xl pointer-events-none group-hover/ceo:bg-[var(--gold)]/20 transition-all duration-700" />
+          <div className="rounded-[2.5rem] bg-gray-100 p-8 md:p-16 lg:p-20 text-[var(--ink-deep)] relative overflow-hidden shadow-2xl transition-all duration-500 hover:shadow-[0_20px_50px_rgba(9,4,41,0.3)]">
+            <div className="absolute right-12 top-16 text-[20rem] leading-none font-serif text-[var(--gold)]/15 select-none pointer-events-none hidden md:block">"</div>
+            <div className="absolute -left-32 -bottom-32 w-96 h-96 bg-[var(--gold)]/10 rounded-full blur-3xl pointer-events-none" />
             
             <div className="relative z-10 w-full grid grid-cols-1 md:grid-cols-12 gap-8 lg:gap-12 items-start">
               <div className="md:col-span-3 lg:col-span-3">
@@ -1519,20 +1519,20 @@ export function CeoMessage() {
               </div>
               
               <div className="md:col-span-9 lg:col-span-9 flex flex-col justify-center">
-                <span className="eyebrow text-[var(--ink-deep)]/70 group-hover/ceo:text-white/70 mb-3 transition-colors duration-700">A MESSAGE FROM THE FOUNDER</span>
-                <h2 className="text-3xl md:text-5xl font-bold leading-tight text-[var(--ink-deep)] group-hover/ceo:text-white mb-6 transition-colors duration-700">
+                <span className="eyebrow text-[var(--ink-deep)]/70 mb-3">A MESSAGE FROM THE FOUNDER</span>
+                <h2 className="text-3xl md:text-5xl font-bold leading-tight text-[var(--ink-deep)] mb-6">
                   We Built The Agency
                 </h2>
                 
-                <p className="text-gray-600 group-hover/ceo:text-gray-300 text-lg md:text-2xl leading-relaxed font-medium mb-10 transition-colors duration-700">
-                  "For years, I watched businesses burn capital on disconnected marketing efforts. They would hire an SEO agency, a web developer, and a media buyer—only to realize that nobody was looking at the bigger picture: <strong className="text-gray-800 group-hover/ceo:text-white font-bold transition-colors duration-700">Predictable Revenue</strong>."
+                <p className="text-gray-600 text-lg md:text-2xl leading-relaxed font-medium mb-10">
+                  "For years, I watched businesses burn capital on disconnected marketing efforts. They would hire an SEO agency, a web developer, and a media buyer—only to realize that nobody was looking at the bigger picture: <strong className="text-gray-800 font-bold">Predictable Revenue</strong>."
                 </p>
                 
                 <div className="flex flex-col">
-                  <div className="text-gray-400 group-hover/ceo:text-[var(--gold)] tracking-wide select-none transition-colors duration-700" style={{ fontFamily: "'Qwitcher Grypen', cursive", fontSize: "3.5rem", lineHeight: "1" }}>
+                  <div className="text-gray-400 tracking-wide select-none" style={{ fontFamily: "'Qwitcher Grypen', cursive", fontSize: "3.5rem", lineHeight: "1" }}>
                     Shahzad Rando
                   </div>
-                  <div className="text-[color:var(--muted-foreground)] group-hover/ceo:text-gray-400 text-sm font-sans tracking-wide mt-2 transition-colors duration-700">
+                  <div className="text-[color:var(--muted-foreground)] text-sm font-sans tracking-wide mt-2">
                     Founder & CEO
                   </div>
                 </div>
