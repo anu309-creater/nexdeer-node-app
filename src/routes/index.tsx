@@ -75,7 +75,7 @@ function Index() {
         <ServiceWebsite />
         <ServiceSEO />
         <ServiceAI />
-        <div className="bg-[var(--surface)] py-14 text-center">
+        <div className="bg-white py-14 text-center border-b border-[var(--border)]">
           <Link to="/services" className="btn-ghost text-[var(--ink-deep)] group">
             <span className="relative z-10 flex items-center gap-2 transition-transform duration-300 group-hover:gap-4">View All Services <ArrowRight size={16} /></span>
           </Link>
