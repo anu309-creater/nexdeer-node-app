@@ -71,6 +71,7 @@ function Index() {
         <Problem />
         <PainPoints />
         <SolutionIntro />
+        <CeoMessage />
         <ServicePerformance />
         <ServiceWebsite />
         <ServiceSEO />
@@ -86,7 +87,6 @@ function Index() {
         <WhyNexdeer />
         <Process />
         <TechStack />
-        <CeoMessage />
         <Testimonials />
         <SocialProof />
         <FAQ />
