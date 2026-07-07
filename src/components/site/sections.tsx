@@ -559,11 +559,11 @@ export function Portfolio({ limit }: { limit?: number }) {
   return (
     <section id="portfolio" className="section-y bg-white">
       <div className="container-x">
-        <div className="flex flex-col gap-8 md:flex-row md:items-end md:justify-between fade-up">
+        <div className="flex flex-col gap-8 items-center text-center fade-up">
           <div className="max-w-2xl">
-            <span className="eyebrow fade-up" style={{ animationDelay: '100ms' }}>Our work</span>
+            <span className="eyebrow mx-auto fade-up" style={{ animationDelay: '100ms' }}>Our work</span>
             <h2 className="headline-lg mt-4 text-[var(--ink-deep)] fade-up" style={{ animationDelay: '200ms' }}>
-              Growth-Focused Solutions Built for Real Businesses
+              Built for Real Businesses
             </h2>
             <p className="mt-5 text-[color:var(--muted-foreground)] leading-relaxed fade-up" style={{ animationDelay: '300ms' }}>
               Every business is different, which is why every solution we build is tailored to
@@ -572,7 +572,7 @@ export function Portfolio({ limit }: { limit?: number }) {
             </p>
           </div>
           {limit && (
-            <Link to="/portfolio" className="btn-ghost text-[var(--ink-deep)] self-start md:self-auto fade-up group" style={{ animationDelay: '400ms' }}>
+            <Link to="/portfolio" className="btn-ghost text-[var(--ink-deep)] fade-up group" style={{ animationDelay: '400ms' }}>
               <span className="relative z-10 flex items-center gap-2 transition-transform duration-300 group-hover:gap-4">View Portfolio <ArrowRight size={16} /></span>
             </Link>
           )}
