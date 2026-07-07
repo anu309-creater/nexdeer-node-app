@@ -262,11 +262,10 @@ export function Trusted() {
             </p>
           </div>
 
-          <div className="mt-8 grid grid-cols-2 sm:grid-cols-4 gap-5">
+          <div className="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-5">
             {[
               ["170+", "Clients"],
               ["250+", "Projects"],
-              ["4", "Markets"],
               ["15+", "Experts"],
             ].map(([n, l], idx) => (
               <div 
