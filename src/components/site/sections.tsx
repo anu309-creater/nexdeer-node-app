@@ -1260,11 +1260,7 @@ export function CaseStudies() {
           ))}
         </div>
         
-        <div className="mt-14 text-center">
-          <Link to="/portfolio" className="btn-ghost text-white group">
-            <span className="relative z-10 flex items-center gap-2 transition-transform duration-300 group-hover:gap-4">View All Case Studies <ArrowRight size={16} /></span>
-          </Link>
-        </div>
+
       </div>
     </section>
   );
