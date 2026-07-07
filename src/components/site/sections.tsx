@@ -1018,7 +1018,7 @@ export function PainPoints() {
         
         <div className="mt-14 text-center">
           <a href="https://wa.me/447537171506" target="_blank" rel="noopener noreferrer" className="btn-gold">
-            Discuss Your Challenges on WhatsApp
+            Let's Solve Your Challenges
           </a>
         </div>
       </div>
