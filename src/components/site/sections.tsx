@@ -1295,16 +1295,16 @@ const row3 = filteredLogos.slice(third * 2);
 
 export function TechStack() {
   return (
-    <section className="section-y bg-[var(--ink-deep)] overflow-hidden">
+    <section className="section-y bg-gray-50 overflow-hidden">
       <div className="container-x">
         <div className="grid gap-10 lg:grid-cols-12 lg:items-end mb-16">
           <div className="lg:col-span-7">
             <span className="eyebrow">Technology stack</span>
-            <h2 className="headline-lg mt-4 text-white">
+            <h2 className="headline-lg mt-4 text-[var(--ink-deep)]">
               Modern Tools. Battle-Tested Stack.
             </h2>
           </div>
-          <p className="lg:col-span-5 text-white/70 leading-relaxed">
+          <p className="lg:col-span-5 text-[color:var(--muted-foreground)] leading-relaxed">
             We standardize on the platforms trusted by the fastest-growing companies in the world —
             and integrate them into one accountable system.
           </p>
