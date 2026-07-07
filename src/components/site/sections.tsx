@@ -682,6 +682,10 @@ export function Portfolio({ limit }: { limit?: number }) {
                     alt={c.title}
                     className="w-full aspect-[4/3] object-cover transition-transform duration-[1.5s] ease-out scale-[1.07] group-hover:scale-[1.15]"
                   />
+                  {/* Gold Sparkle badge to cover Gemini watermark */}
+                  <div className="absolute bottom-3 right-3 z-10 text-[var(--gold)] bg-black/50 p-1.5 rounded-full backdrop-blur-sm border border-[var(--gold)]/20 shadow-md">
+                    <Sparkles size={14} className="fill-[var(--gold)]" />
+                  </div>
                 </div>
               );
             }
@@ -697,6 +701,10 @@ export function Portfolio({ limit }: { limit?: number }) {
                   alt={c.title}
                   className="w-full aspect-[4/3] object-cover transition-transform duration-[1.5s] ease-out scale-[1.07] group-hover:scale-[1.15]"
                 />
+                {/* Gold Sparkle badge to cover Gemini watermark */}
+                <div className="absolute bottom-3 right-3 z-10 text-[var(--gold)] bg-black/50 p-1.5 rounded-full backdrop-blur-sm border border-[var(--gold)]/20 shadow-md group-hover:opacity-0 transition-opacity duration-500">
+                  <Sparkles size={14} className="fill-[var(--gold)]" />
+                </div>
                 <div className="absolute inset-0 bg-gradient-to-t from-[var(--ink-deep)] via-[var(--ink-deep)]/20 to-transparent opacity-80 group-hover:opacity-95 transition-opacity duration-700" />
                 <div className="absolute inset-x-0 bottom-0 p-8 text-white translate-y-4 group-hover:translate-y-0 transition-transform duration-700">
                   <div className="text-xs uppercase tracking-[0.18em] text-[var(--gold)] opacity-0 group-hover:opacity-100 transition-opacity duration-700 delay-100">{c.tag}</div>

@@ -3,7 +3,7 @@ import { Header } from "@/components/site/Header";
 import { Footer } from "@/components/site/Footer";
 import { FinalCTA } from "@/components/site/sections";
 import { ALL_PORTFOLIO_PROJECTS } from "@/components/site/sections";
-import { ArrowLeft, CheckCircle2, Calendar, Target, ArrowRight, ArrowUpRight } from "lucide-react";
+import { ArrowLeft, CheckCircle2, Calendar, Target, ArrowRight, ArrowUpRight, Sparkles } from "lucide-react";
 
 export const Route = createFileRoute("/portfolio/$projectId")({
   component: PortfolioDetail,
@@ -79,8 +79,12 @@ function PortfolioDetail() {
             <div className="grid lg:grid-cols-12 gap-16">
               {/* LEFT COLUMN: Main content */}
               <div className="lg:col-span-8">
-                <div className="w-full aspect-video overflow-hidden rounded-3xl mb-16 shadow-2xl border border-[var(--border)] fade-up" style={{ animationDelay: '300ms' }}>
+                <div className="w-full aspect-video overflow-hidden rounded-3xl mb-16 shadow-2xl border border-[var(--border)] fade-up relative" style={{ animationDelay: '300ms' }}>
                   <img src={project.img} alt={project.title} className="w-full h-full object-cover scale-[1.07]" />
+                  {/* Gold Sparkle badge to cover Gemini watermark */}
+                  <div className="absolute bottom-3 right-3 z-10 text-[var(--gold)] bg-black/50 p-1.5 rounded-full backdrop-blur-sm border border-[var(--gold)]/20 shadow-md">
+                    <Sparkles size={14} className="fill-[var(--gold)]" />
+                  </div>
                 </div>
                 
                 <div className="space-y-16">
