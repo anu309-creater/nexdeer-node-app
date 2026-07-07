@@ -805,6 +805,14 @@ const TESTIMONIALS = [
 
 export function Testimonials() {
   const [idx, setIdx] = useState(0);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setIdx((curr) => (curr + 1) % TESTIMONIALS.length);
+    }, 5000);
+    return () => clearInterval(timer);
+  }, []);
+
   const t = TESTIMONIALS[idx];
   return (
     <section className="section-y bg-[var(--surface)]">
