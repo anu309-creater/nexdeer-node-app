@@ -129,9 +129,9 @@ export function Hero() {
           </p>
 
           <div className="mt-9 flex flex-wrap items-center justify-center gap-3">
-            <Link to="/contact" className="btn-gold">
+            <a href="https://wa.me/447537171506" target="_blank" rel="noopener noreferrer" className="btn-gold">
               Get Your Custom Growth Plan
-            </Link>
+            </a>
             <Link to="/portfolio" className="btn-ghost text-white group">
               View Our Work <ArrowRight size={16} className="transition-transform group-hover:translate-x-1" />
             </Link>
@@ -241,7 +241,7 @@ export function Trusted() {
 
         <div className="lg:col-span-7">
           <span className="eyebrow fade-up" style={{ animationDelay: '100ms' }}>Trusted by growing businesses</span>
-          <h2 className="headline-lg mt-4 text-[var(--ink-deep)] fade-up" style={{ animationDelay: '200ms' }}>
+          <h2 className="text-3xl lg:text-4xl font-bold mt-4 text-[var(--ink-deep)] fade-up leading-[1.1] tracking-tight" style={{ animationDelay: '200ms' }}>
             Built to Help Businesses Grow Smarter and Scale Faster
           </h2>
           <div className="mt-6 space-y-5 text-[15.5px] leading-relaxed text-[color:var(--muted-foreground)] fade-up" style={{ animationDelay: '300ms' }}>
