@@ -645,9 +645,9 @@ export function Portfolio({ limit }: { limit?: number }) {
   return (
     <section id="portfolio" className="section-y bg-slate-50">
       <div className="container-x">
-        <div className="flex flex-col gap-8 items-center text-center fade-up">
-          <div className="max-w-2xl">
-            <span className="eyebrow mx-auto fade-up" style={{ animationDelay: '100ms' }}>Our work</span>
+        <div className="flex flex-col md:flex-row md:items-end justify-between gap-8 fade-up">
+          <div className="max-w-2xl text-left">
+            <span className="eyebrow fade-up" style={{ animationDelay: '100ms' }}>Our work</span>
             <h2 className="headline-lg mt-4 text-[var(--ink-deep)] fade-up" style={{ animationDelay: '200ms' }}>
               Done for Real Businesses
             </h2>
@@ -658,9 +658,11 @@ export function Portfolio({ limit }: { limit?: number }) {
             </p>
           </div>
           {limit && (
-            <Link to="/portfolio" className="btn-ghost text-[var(--ink-deep)] fade-up group" style={{ animationDelay: '400ms' }}>
-              <span className="relative z-10 flex items-center gap-2 transition-transform duration-300 group-hover:gap-4">View Portfolio <ArrowRight size={16} /></span>
-            </Link>
+            <div className="flex-shrink-0">
+              <Link to="/portfolio" className="btn-ghost text-[var(--ink-deep)] fade-up group" style={{ animationDelay: '400ms' }}>
+                <span className="relative z-10 flex items-center gap-2 transition-transform duration-300 group-hover:gap-4">View Portfolio <ArrowRight size={16} /></span>
+              </Link>
+            </div>
           )}
         </div>
 
