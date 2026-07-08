@@ -516,6 +516,8 @@ export function GrowthSystem({ limit }: { limit?: number }) {
 }
 
 const PROJECT_IMAGES = [
+  "/projects/real estate website.webp",
+  "/projects/travel website.webp",
   "/projects/Untitled design (6).png",
   "/projects/Untitled design (7).png",
   "/projects/Untitled design (8).png",
@@ -562,8 +564,8 @@ const PROJECT_IMAGES = [
 ];
 
 const REAL_PROJECT_DATA = [
-  { title: "Elite Couture", tag: "Fashion · Boutique", externalUrl: "https://www.boohoo.com" },
-  { title: "Asset Vantage", tag: "Finance · SEO", externalUrl: "https://www.assetvantage.com/?utm_source=chatgpt.com" },
+  { title: "Real Estate Website", tag: "Real Estate · Web Design", externalUrl: "https://www.boohoo.com" },
+  { title: "Travel Agency Website", tag: "Travel · Web Design", externalUrl: "https://www.assetvantage.com/?utm_source=chatgpt.com" },
   { title: "Apex Advisors", tag: "Consulting · Strategy", externalUrl: "https://grantcardone.com/?utm_source=chatgpt.com" },
   { title: "Serengeti Safaris", tag: "Travel · Tourism", externalUrl: "https://www.agriturismo.it" },
   { title: "Vanguard Strategy", tag: "Consulting · Ads", externalUrl: "https://grantcardone.com/?utm_source=chatgpt.com" },
