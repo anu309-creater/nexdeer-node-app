@@ -1491,7 +1491,7 @@ export function CeoMessage() {
       <div className="container-x relative z-10">
         <div className="fade-up" style={{ animationDelay: '100ms' }}>
           
-          <div className="rounded-2xl bg-gray-100 py-16 px-10 md:py-24 md:px-16 lg:py-28 lg:px-20 text-[var(--ink-deep)] relative overflow-hidden">
+          <div className="max-w-5xl mx-auto rounded-2xl bg-gray-100 py-16 px-10 md:py-24 md:px-16 lg:py-28 lg:px-20 text-[var(--ink-deep)] relative overflow-hidden">
             <div className="absolute right-12 top-16 text-[15rem] leading-none font-serif text-[var(--gold)]/10 select-none pointer-events-none hidden md:block">"</div>
             <div className="absolute -left-32 -bottom-32 w-96 h-96 bg-[var(--gold)]/5 rounded-full blur-3xl pointer-events-none" />
             
